@@ -1,6 +1,6 @@
-.idead
+.idea
 .vscode
 
-_ note modules
+node_modules
 
-.DSSCORE
+.DS_Store
