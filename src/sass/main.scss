@@ -1,3 +1,5 @@
-html, body {
-    font-size: 16 px
-}
+@import ../../node_modules/normalize.css/normalize;
+
+@import "src/sass/components/menu.scss";
+@import "src\sass\Layout\header.scss";
+@import "src\sass\components\logo.scss"
