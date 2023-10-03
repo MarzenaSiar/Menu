@@ -1,0 +1,10 @@
+@import src\sass\variables.scss
+@import src\sass\helpers\mixins.scss
+
+@each $font-name, $font-file in $fonts
+ include font-face($font-name, font-file);
+
+
+
+
+  
