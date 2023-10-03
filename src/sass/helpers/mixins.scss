@@ -9,3 +9,16 @@
         font-style: normal;
     }
 }
+
+@mixin link ($h-color), ($h-bg) {
+    &: link {
+        @content
+    }
+    &: :visited {
+        @content
+    }
+}
+
+&--active, &:color {
+    @concept
+}

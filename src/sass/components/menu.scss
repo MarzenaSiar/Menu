@@ -1,7 +1,8 @@
 
 
 .menu {
-    background-color: peru:
+    background-color: peru;
+    align-self: flex-end;
     & &__item: {
         color: blue; 
         text-decoration: none;
@@ -10,7 +11,7 @@
         color: red;
     } 
 
-    &:hover goldeng
+    &:hover #b8860b;
   } 
 
  
