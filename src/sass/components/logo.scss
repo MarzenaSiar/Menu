@@ -3,7 +3,19 @@
 
 .logo {
     background-image: url(#{$img-path}/logo/svg);
-    width: rem(100px);
-    height: rem(100px);
+    width: rem(64px);
+    height: rem(64px);
+    margin: rem(10px)
     display: inline-block;
+    transition: all 400ms ease-in-out;
+     &:hover {
+        transform: rotate (360deg)
+     }
+ }
+
+ //media query
+ @media screen and (max max-width: 960px) {
+    .header {
+        background-color: lightblue;
+    }
  }
